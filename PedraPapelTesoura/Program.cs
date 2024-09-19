@@ -1,10 +1,8 @@
 ﻿
 	
-		string[] opcoes =
-		{
-			"papel", "pedra", "tesoura"
-		};
+		string[] opcoes ={ "papel", "pedra", "tesoura" };
 		Random random = new Random();
+		Console.WriteLine("Bem-Vindo ao jogo Pedra, Papel, Tesoura!");
 		while (true)
 		{
 			Console.WriteLine("Escolha entre pedra, papel ou tesoura (ou digite sair para terminar o jogo): ");
@@ -24,4 +22,3 @@
 				Console.WriteLine(" Computador venceu! ");
 			Console.WriteLine();
 		}
-	
