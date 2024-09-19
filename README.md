@@ -15,10 +15,10 @@ Regras básicas:
 Como construir o jogo?
 -Certifique-se de ter o .NET instalado
 -Para executar o projeto, use os seguintes comandos:
-string[] opcoes =
-Random random = new Random();
-while (true)
-string jogador = Console.ReadLine().ToLower();
-string computador = opcoes[random.Next(opcoes.Length)];
-Console.WriteLine($"O computador escolheu: {computador}");
-else if (jogador == "pedra" && computador == "tesoura" || jogador == "papel" && computador == "pedra" || jogador == "tesoura" && computador == "papel")
+```string[] opcoes =```
+```Random random = new Random();```
+```while (true)```
+```string jogador = Console.ReadLine().ToLower();```
+```string computador = opcoes[random.Next(opcoes.Length)];```
+```Console.WriteLine($"O computador escolheu: {computador}");```
+```else if (jogador == "pedra" && computador == "tesoura" || jogador == "papel" && computador == "pedra" || jogador == "tesoura" && computador == "papel")```
